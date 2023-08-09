@@ -54,6 +54,8 @@ int main(){
        // Calculate the amount of wrapping paper needed
        total = total + calculateAmountOfPaper(dimensions, 3); 
     }
+    
+    fclose(file);
 
     printf("Total amounf of paper in sqft: %ld\n", total);
     return 0;
