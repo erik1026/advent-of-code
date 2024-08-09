@@ -35,7 +35,7 @@ fn compute_ribbon_needed(length: u32, width: u32, height: u32) -> u32 {
     }
 
     total_ribbon += length * width * height;
-    total_ribbon += (2 * smallest_side + 2 * second_smallest_side);
+    total_ribbon += (2 * smallest_side) + (2 * second_smallest_side);
 
     total_ribbon
 }
